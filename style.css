@@ -6,10 +6,12 @@ body {
 
 h1 {
   line-height: 200%;
+  text-align: center;
 }
 
 nav {
   font-weight: bold;
+  text-align: center;
 }
 
 .category {
@@ -18,7 +20,24 @@ nav {
   color: #003366;
   font-size: 1.1em;
 }
+.category1 {
+    margin-left: 40px;
+}
 
-footer {
+footer nav {
   font-size: .7em;
+  text-align: left;
+  font-weight: bold;
+}
+footer ul{
+  padding-left: 0px
+}
+
+nav li{
+  display: inline;
+}
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%
 }
